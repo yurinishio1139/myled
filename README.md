@@ -13,7 +13,7 @@ robosys2019_kadai1
 * Raspberry Pi 3 Model B
 * ubuntu 18.04
 * LED 5つ 
-* 接続ピン - 26
+* 接続ピン - GPIO16,20,21,25,26 GND
 * 抵抗 - 330[Ω]
 * 実行方法
   * $ cd myled $ make $ sudo insmod myled.ko $ sudo chmod 666 /dev/myled0 $ chmod +x spin.py $ python spin.pu
