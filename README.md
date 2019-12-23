@@ -6,7 +6,7 @@ robosys2019_kadai1
 
 ## 
 * 2回実行
-* 
+* ストップ Ctrl+C
 * [ demo - YouTube](https)
 
 ## 環境
@@ -16,7 +16,11 @@ robosys2019_kadai1
 * 接続ピン - GPIO16,20,21,25,26 GND
 * 抵抗 - 330[Ω]
 * 実行方法
-  * $ cd myled $ make $ sudo insmod myled.ko $ sudo chmod 666 /dev/myled0 $ chmod +x spin.py $ python spin.pu
+```
+$ make 
+$ sudo insmod myled.ko 
+$ sudo chmod 666 /dev/myled0 
+$ chmod +x spin.py 
+$ python spin.py
 
-
-
+```
