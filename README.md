@@ -6,7 +6,7 @@ robosys2019_kadai1
 
 ## 
 * 2回実行
-* ストップ Ctrl+C
+* Ctrl+Cでストップ
 * [ demo - YouTube](https)
 
 ## 環境
@@ -17,6 +17,8 @@ robosys2019_kadai1
 * 抵抗 - 330[Ω]
 * 実行方法
 ```
+$ git clone https://github.com/yurinishio1139/myled.git
+$ cd myled
 $ make 
 $ sudo insmod myled.ko 
 $ sudo chmod 666 /dev/myled0 
@@ -24,3 +26,6 @@ $ chmod +x spin.py
 $ python spin.py
 
 ```
+## 回路図
+
+
