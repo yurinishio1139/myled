@@ -7,7 +7,7 @@ robosys2019_kadai1
 ## 
 * 2回実行
 * Ctrl+Cでストップ
-* [ demo - YouTube](https)
+* [ demo - YouTube](https://youtu.be/BtGi0TddrO0)
 
 ## 環境
 * Raspberry Pi 3 Model B
